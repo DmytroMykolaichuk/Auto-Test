@@ -1,5 +1,5 @@
 // import { should } from 'chai';
-import 'cypress-network-idle';
+//import 'cypress-network-idle';
 
 let regTest = Cypress.env('TEST_LOG_AND_PASS') + '+' + `${Date.now().toString(32)}@devforth.io`;
 let TestLogin = Cypress.env('VSEM');
