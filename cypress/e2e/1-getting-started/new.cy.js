@@ -12,4 +12,5 @@ describe('test', () => {
         cy.get('div[class="checkbox"]').click()
         cy.get('button[id="auth-btn"]').click()
     })
-})
+})//test
+//test 2 code
